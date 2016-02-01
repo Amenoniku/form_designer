@@ -1,0 +1,8 @@
+extends ../layout/index
+
+block content
+	.test-form(ng-controller="TestForm")
+		h2 {{testForm.title}}
+		form#testForm(action="#" method="POST" name="ng-form" ng-submit="submit($event)")
+			#fields.fields
+			input(type="submit" value="Отправить")

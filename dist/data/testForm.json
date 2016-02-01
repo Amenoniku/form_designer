@@ -1,0 +1,90 @@
+{
+	"title": "Анкета",
+	"fields": [
+		{
+			"label": "Имя",
+			"name": "name",
+			"dir": "testinput",
+			"type": "text",
+			"required": true
+		},
+		{
+			"label": "Возраст",
+			"name": "age",
+			"dir": "testnumber",
+			"type": "number",
+			"required": true
+		},
+		{
+			"label": "Семейное положение",
+			"dir": "testselect",
+			"options": [
+				"Женат/замужем",
+				"Не женат/Не замужем"
+			]
+		},
+		{
+			"label": "ВУЗ",
+			"name": "vyz",
+			"dir": "testinput",
+			"type": "text",
+			"addField": true,
+			"description": "Укажите учебное заведение в которых вы учились."
+		},
+		{
+			"label": "Место рождения",
+			"name": "birth",
+			"dir": "testselect",
+			"options": [
+				"Не важно",
+				"Важно"
+			]
+		},
+		{
+			"label": "Навыки",
+			"name": "skils",
+			"dir": "testcheckbox",
+			"type": "checkbox",
+			"values": [
+				{
+					"value": "Общение",
+					"name": "communication"
+				},
+				{
+					"value": "Знание иностранный языков",
+					"name": "languages"
+				},
+				{
+					"value": "Готовка",
+					"name": "cooking"
+				},
+				{
+					"value": "Бег с препятствиями",
+					"name": "obstacle_course"
+				},
+				{
+					"value": "Быстрое чтение",
+					"name": "quick_read"
+				},
+				{
+					"value": "Бокс",
+					"name": "box"
+				},
+				{
+					"value": "Пение",
+					"name": "singing"
+				},
+				{
+					"value": "Программирование",
+					"name": "programming"
+				},
+				{
+					"value": "Вождение",
+					"name": "driving"
+				}
+			],
+			"checkAll": true,
+			"description": "Отметьте ваши навыки"
+		}
+	]
+}
